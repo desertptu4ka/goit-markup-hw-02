@@ -1,0 +1,237 @@
+/* ------- GENERAL ------- */
+:root {
+  --brend-color: #2196f3;
+  --brend-color-2: #000;
+  --brend-color-3: #fff;
+  --text-color: #212121;
+  --text-description-color: #757575;
+
+  --btn-hover-color: #188ce8;
+
+  --bg-hero: #2f303a;
+  --bg-about: #e5e5e5;
+  --bg-team: #f5f4fa;
+  --bg-footer: #2f303a;
+}
+
+body {
+  font-family: "Roboto" "sans-serif";
+  font-style: normal;
+  color: var(--text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link,
+link:hover {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.link:hover {
+  color: var(--brend-color);
+}
+
+.current {
+  color: var(--brend-color);
+}
+
+/* ------- LOGO ------- */
+
+.logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+}
+
+.logo-color-1 {
+  color: var(--brend-color);
+}
+
+.logo-color-2 {
+  color: var(--brend-color-2);
+}
+
+.logo-color-3 {
+  color: var(--brend-color-3);
+}
+
+.btn {
+  font-family: inherit;
+  background: var(--brend-color);
+  color: var(--brend-color-3);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.btn:hover,
+.btn:focus {
+  background: var(--btn-hover-color);
+  cursor: pointer;
+}
+
+/* ------- HEADER ------- */
+
+.header {
+  background: var(--brend-color-3);
+}
+
+.header-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+}
+
+.header-contacts-item > a {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--text-description-color);
+}
+
+/* ------- HERO ------- */
+
+.hero {
+  background: var(--bg-hero);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--brend-color-3);
+}
+
+/* ------- ABOUT ------- */
+
+.about {
+  background-color: var(--bg-about);
+}
+
+.about-item > h3 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.about-item > p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  letter-spacing: 0.03em;
+  color: var(--text-description-color);
+}
+
+.about-woks-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.about-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* ------- TEAM ------- */
+
+.team {
+  background-color: var(--bg-team);
+}
+
+.team-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-item > h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-item > p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-description-color);
+}
+
+/* ------- FOOTER ------- */
+
+.footer {
+  background-color: var(--bg-footer);
+}
+
+.address-google-map {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+
+  color: var(--brend-color-3);
+}
+
+.address-contact {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--text-description-color);
+}
+
+/* ------- PORTOFOLIO ------- */
+
+.filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.filter:hover,
+.filter:focus {
+  color: var(--brend-color-3);
+  background: var(--btn-hover-color);
+  cursor: pointer;
+}
+
+.project > h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+}
+
+.project > p {
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.03em;
+  color: var(--text-description-color);
+}
