@@ -9,7 +9,7 @@
   --btn-hover-color: #188ce8;
 
   --bg-hero: #2f303a;
-  --bg-about: #e5e5e5;
+  --bg-about: #fff;
   --bg-team: #f5f4fa;
   --bg-footer: #2f303a;
 }
@@ -41,7 +41,7 @@ link:hover {
 /* ------- LOGO ------- */
 
 .logo {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: calc(31 / 26);
@@ -63,9 +63,16 @@ link:hover {
 .btn {
   font-family: inherit;
   background: var(--brend-color);
-  color: var(--brend-color-3);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--brend-color-3);
 }
 
 .btn:hover,
